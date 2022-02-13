@@ -2,9 +2,9 @@ from cmath import inf
 
 
 class Node:
-    def __init__(self):
+    def __init__(self, ID: int = None):
         #ID of the node
-        self.id: int = None
+        self.id: int = ID
         #All the nodes that this Node points to
         self.children: list["Node"] = []
         #stores the weights to the children indexes must be the same
@@ -15,7 +15,8 @@ class Node:
         """Returns all the connections in a list of tuples (Node, weight)"""
         l = []
         for i in range(len(self.children)):
-            l.append(tuple(self.children[i], self.weight[i]))
+            c = (self.children[i], self.weight[i])
+            l.append(c)
         return l
 
     def add_node(self, n: "Node", w: float) -> None:
