@@ -4,11 +4,6 @@ Prim's Alogrithm for 315 midterm
 Madeline Porcaro
 """
 
-from sre_constants import IN
-
-from numpy import minimum
-
-
 INF = 9999999
 
 # number of vertices 
