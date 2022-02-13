@@ -5,6 +5,6 @@ NOT SOLUTIONS - JUST IMPLEMENTATIONS OF ALGORITHMS
 
 
 Midterm code for CIS315 at the University of Oregon
-Created by Seth Palmer and Madeline Porcaro
+created by Seth Palmer and Madeline Porcaro
 
 February 13, 2022
